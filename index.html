@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Sesitsky</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p, h1, h2, h3 {
+            font-weight: 900;
+        }
+        body {
+            font-family: 'Roboto Condensed', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <h1>Мое портфолио</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="img_div_1">
+                    <img id="img_1" src="assets/IMG_20240503_190321.jpg" alt="ава">
+                </div>
+                <div class="card" id="card_1">
+                    <div class="head">О себе</div>
+                    <div class="content">                       
+                        <h2>
+                            Здравстуйте!
+                        </h2>
+                        <p class="text_1">
+                            Я Сесицкий Иван, cтудент МТУСИ. Изучаю Python, SQL
+                        </p>
+                        <p class="text_1" id="text_1">
+                            |
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <div class="card" id="card_2">
+                    <div class="head">Проекты</div>
+                    <div class="container_cards ">
+                        <div class="card cards">
+                            <div class="head head_2">Светофор в Logisim</div>
+                            <div class="content_2">                       
+                                <div class="img_div_2">
+                                    <img id="img_2" src="assets/IMG_20240503_141321.png" alt="Logisim">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card cards">
+                            <div class="head head_2">База данных в SQL</div>
+                            <div class="content_2">                       
+                                <div class="img_div_2">
+                                    <img id="img_2" src="assets/IMG_20240503_14141.png" alt="SQL">
+                                </div>
+                            </div>
+                        </div>                                 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="card" id="card_3">
+                    <div class="head">Навыки</div>
+                    <div class="container_skills">
+                        <div class="card skills">
+                            <div class="head">hard skills</div>  
+                            <div>
+                                <ul class="ul_skills">
+                                    <li class="li_skills">
+                                        <button class="but_skills">Python</button>
+                                    </li>
+                                    <li class="li_skills">
+                                        <button class="but_skills">SQL</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card skills">
+                            <div class="head ">soft skills</div>
+                            <div>
+                                <ul class="ul_skills">
+                                    <li class="li_skills">
+                                        <button class="but_skills">Работа в команде</button>
+                                    </li>
+                                    <li class="li_skills">
+                                        <button class="but_skills">Креативность</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>                                 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container" id="contacts">
+            <div>
+                <p>© 2025</p>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://github.com/kweharmony"><img class="img_logo" src="assets/icons8-github-24.png" alt="github"></a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/analog_experiment"><img class="img_logo" src="assets/icons8-телеграм-50.png" alt="телеграм"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </footer>
+</body>
+</html>
